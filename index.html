@@ -10,25 +10,25 @@
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Montserrat:wght@500;600;700;800&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="all.css">
 </head>
-<body>
+<body class="home-page">
     <nav class="navbar">
-        <a class="logo" href="#home" aria-label="Nexora home">
+        <a class="logo" href="index.html" aria-label="Nexora home">
             <img src="logo/nexora-logo-horizontal.svg" alt="Nexora - Banking Beyond Limits">
         </a>
 
         <div class="linkbar">
             <ul class="nav-links">
-                <li><a href="#home" aria-current="page">Home</a></li>
-                <li><a href="#regions">Accounts</a></li>
-                <li><a href="#transfers">Transfers</a></li>
-                <li><a href="#cards">Cards</a></li>
-                <li><a href="#loans">Loans</a></li>
-                <li><a href="#wealth">Wealth</a></li>
-                <li><a href="#support">Support</a></li>
+                <li><a href="index.html" aria-current="page">Home</a></li>
+                <li><a href="account.html">Accounts</a></li>
+                <li><a href="transfer.html">Transfers</a></li>
+                <li><a href="cards.html">Cards</a></li>
+                <li><a href="savings.html">Loans</a></li>
+                <li><a href="savings.html">Wealth</a></li>
+                <li><a href="support.html">Support</a></li>
             </ul>
 
             <div class="rightnav">
-                <a class="search-icon" href="#services" aria-label="Search services">
+                <a class="search-icon" href="support.html" aria-label="Search services">
                     <img src="icons/search.svg" alt="">
                 </a>
                 <a class="logbtn" href="login.html">Login</a>
@@ -38,14 +38,14 @@
     </nav>
 
     <main>
-        <section class="index">
+        <section class="index" id="home">
             <div>
                 <h5>INTERNATIONAL &amp; NATIONAL BANKING</h5>
                 <h1>Your Global Bank<br>for a <span>Brighter Future</span></h1>
                 <p>Nexora connects you to the world — with secure, smart and seamless banking solutions for both international and national needs.</p>
 
                 <div class="indexbtns">
-                    <a class="getbtn" href="#get-started">Open an Account <span aria-hidden="true">→</span></a>
+                    <a class="getbtn" href="signup.html">Open an Account <span aria-hidden="true">→</span></a>
                     <a class="learnbtn" href="#services">Explore Our Services</a>
                 </div>
 
@@ -58,9 +58,10 @@
             <img src="illustrations/phone-app.svg" alt="Nexora mobile banking app" class="phoneapp">
             <img src="illustrations/card-black.svg" alt="Nexora premium bank card" id="bankcard">
             <img src="illustrations/world-network.svg" alt="" id="worldnetwork">
+            <p class="script">Banking<br>Without<br>Borders</p>
         </section>
 
-        <section class="benefits">
+        <section class="benefits" id="benefits">
             <div>
                 <img src="icons/shield.svg" alt="">
                 <div><h2>Secure &amp; Trusted</h2><p>Your security is our priority.</p></div>
@@ -97,7 +98,7 @@
             <div><h1>99.99%</h1><span>Platform uptime</span></div>
         </section>
 
-        <section class="regions">
+        <section class="regions" id="regions">
             <div>
                 <h5>INTERNATIONAL &amp; NATIONAL BANKING</h5>
                 <h2>Two Regions.<br>
@@ -109,6 +110,7 @@
             </div>
 
             <div class="countries">
+                <img class="skyline" src="illustrations/skyline-europe.svg" alt="">
                 <div class="country">
                     <img src="flags/eu.svg" alt="European Union">
                     <div><h3>International Banking</h3><p>Europe &amp; Global</p></div>
@@ -119,10 +121,11 @@
                     <li>Global debit &amp; credit cards</li>
                     <li>Competitive exchange rates</li>
                 </ul>
-                <a class="learnbtn" href="#transfers">Explore International <span aria-hidden="true">→</span></a>
+                <a class="learnbtn" href="transfer.html">Explore International <span aria-hidden="true">→</span></a>
             </div>
 
             <div class="asia">
+                <img class="skyline" src="illustrations/skyline-asia.svg" alt="">
                 <div class="asian">
                     <img src="flags/cn.svg" alt="China">
                     <div><h3>National Banking</h3><p>Asia &amp; Local</p></div>
@@ -133,13 +136,13 @@
                     <li>Bill payments</li>
                     <li>Mobile &amp; online banking</li>
                 </ul>
-                <a class="learnbtn" href="#regions">Explore National
+                <a class="learnbtn" href="account.html">Explore National
                      <span aria-hidden="true">→</span></a>
             </div>
 
         </section>
 
-        <section class="services">
+        <section class="services" id="services">
             <div class="sec">
                 <div>
                     <h5>EVERYTHING IN ONE PLACE</h5>
@@ -153,42 +156,42 @@
                     <img src="icons/building.svg" alt="">
                     <h3>Smart Accounts</h3>
                     <p>Multi-currency current and savings accounts with zero monthly fees.</p>
-                    <a href="#regions">Learn more →</a>
+                    <a href="account.html">Learn more →</a>
                 </div>
 
                 <div class="transfers">
                     <img src="icons/transfers.svg" alt="">
                     <h3>Instant Transfers</h3>
                     <p>Send money locally in seconds and worldwide in minutes.</p>
-                    <a href="#transfers">Learn more →</a>
+                    <a href="transfer.html">Learn more →</a>
                 </div>
 
                 <div class="cards">
                     <img src="icons/cards.svg" alt="">
                     <h3>Premium Cards</h3>
                     <p>Metal-finish debit and credit cards accepted in 180+ countries.</p>
-                    <a href="#cards">Learn more →</a>
+                    <a href="cards.html">Learn more →</a>
                 </div>
 
                 <div class="loans">
                     <img src="icons/loans.svg" alt="">
                     <h3>Flexible Loans</h3>
                     <p>Personal and business loans with rates that reward loyalty.</p>
-                    <a href="#loans">Learn more →</a>
+                    <a href="savings.html">Learn more →</a>
                 </div>
 
                 <div class="savings">
                     <img src="icons/savings.svg" alt="">
                     <h3>Goal Savings</h3>
                     <p>Earn up to 6.2% p.a. while you save for what matters.</p>
-                    <a href="#wealth">Learn more →</a>
+                    <a href="savings.html">Learn more →</a>
                 </div>
                 
                 <div class="wealth">
                     <img src="icons/trending.svg" alt="">
                     <h3>Wealth Growth</h3>
                     <p>Build a diversified portfolio with guidance from experts.</p>
-                    <a href="#wealth">Learn more →</a>
+                    <a href="savings.html">Learn more →</a>
                 </div>
 
             </div>
@@ -200,23 +203,23 @@
                 <span>Updated every 60 seconds</span>
             </div>
             <div><span>USD / EUR</span>
-                <h1>0.9248</h1><small>+0.12%</small>
+                <h1>0.9248</h1><small>+0.12%</small><img src="illustrations/sparkline-up.svg" alt="">
             </div>
             <div><span>GBP / USD</span>
-                <h1>1.2931</h1><small>+0.28%</small>
+                <h1>1.2931</h1><small>+0.28%</small><img src="illustrations/sparkline-up.svg" alt="">
             </div>
             <div><span>USD / NGN</span>
-                <h1>1,598.40</h1><small class="negative">−0.41%</small>
+                <h1>1,598.40</h1><small class="negative">−0.41%</small><img src="illustrations/sparkline-down.svg" alt="">
             </div>
             <div><span>USD / CNY</span>
-                <h1>7.2440</h1><small>+0.05%</small>
+                <h1>7.2440</h1><small>+0.05%</small><img src="illustrations/sparkline-up.svg" alt="">
             </div>
             <div><span>USD / JPY</span>
-                <h1>149.82</h1><small>+0.33%</small>
+                <h1>149.82</h1><small>+0.33%</small><img src="illustrations/sparkline-up.svg" alt="">
             </div>
         </section>
 
-        <section class="get-started">
+        <section class="get-started" id="get-started">
             <div>
                 <h5>GET STARTED IN MINUTES</h5>
                 <h2>Open your Nexora account<br><span>in under 5 minutes</span></h2>
@@ -225,7 +228,7 @@
                     <li><strong>2</strong><b>Verify</b><span>Quick ID check.</span></li>
                     <li><strong>3</strong><b>Start banking</b><span>Fund and go global.</span></li>
                 </ol>
-                <a class="getbtn" href="#get-started">Open an Account <span aria-hidden="true">→</span></a>
+                <a class="getbtn" href="signup.html">Open an Account <span aria-hidden="true">→</span></a>
             </div>
             <img src="illustrations/security-shield.svg" alt="Protected by Nexora security">
         </section>
@@ -233,30 +236,30 @@
 
     <footer class="bottom">
         <div>
-            <a class="logo" href="#home">
+            <a class="logo" href="index.html">
                 <img src="logo/nexora-logo-horizontal.svg" alt="Nexora - Banking Beyond Limits">
             </a>
             <p>Secure, smart and seamless banking for people who live and work across borders.</p>
         </div>
         <div>
             <h2>Quick Links</h2>
-            <a href="#home">Home</a>
-            <a href="#regions">Accounts</a>
-            <a href="#transfers">Transfers</a>
-            <a href="#cards">Cards</a>
-            <a href="#loans">Loans</a>
-            <a href="#wealth">Wealth</a>
-            <a href="#support">Support</a>
-            <a href="#support">Contact</a>
+            <a href="index.html">Home</a>
+            <a href="account.html">Accounts</a>
+            <a href="transfer.html">Transfers</a>
+            <a href="cards.html">Cards</a>
+            <a href="savings.html">Loans</a>
+            <a href="savings.html">Wealth</a>
+            <a href="support.html">Support</a>
+            <a href="support.html">Contact</a>
         </div>
         <div>
             <h2>Follow Us</h2>
             <div id="sociallinks">
-                <a href="#facebook" aria-label="Facebook"><img src="icons/facebook.svg" alt=""></a>
-                <a href="#x" aria-label="X"><img src="icons/x.svg" alt=""></a>
-                <a href="#instagram" aria-label="Instagram"><img src="icons/instagram.svg" alt=""></a>
-                <a href="#linkedin" aria-label="LinkedIn"><img src="icons/linkedin.svg" alt=""></a>
-                <a href="#youtube" aria-label="YouTube"><img src="icons/youtube.svg" alt=""></a>
+                <a href="https://www.facebook.com/" target="_blank" rel="noopener noreferrer" aria-label="Facebook"><img src="icons/facebook.svg" alt=""></a>
+                <a href="https://x.com/" target="_blank" rel="noopener noreferrer" aria-label="X"><img src="icons/x.svg" alt=""></a>
+                <a href="https://www.instagram.com/" target="_blank" rel="noopener noreferrer" aria-label="Instagram"><img src="icons/instagram.svg" alt=""></a>
+                <a href="https://www.linkedin.com/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn"><img src="icons/linkedin.svg" alt=""></a>
+                <a href="https://www.youtube.com/" target="_blank" rel="noopener noreferrer" aria-label="YouTube"><img src="icons/youtube.svg" alt=""></a>
             </div>
         </div>
         <form>
@@ -267,6 +270,10 @@
                 <button type="submit">Subscribe</button>
             </div>
         </form>
+        <div class="apps">
+            <a href="https://apps.apple.com/" target="_blank" rel="noopener noreferrer"><img src="icons/white/apple.svg" alt=""><span><small>Download on the</small>App Store</span></a>
+            <a href="http://play.google.com/store/apps/details?id=com.nexora.app" target="_blank" rel="noopener noreferrer"><img src="icons/white/play.svg" alt=""><span><small>Get it on</small>Google Play</span></a>
+        </div>
         <div id="copyright">
             <span>© 2025 Nexora Bank. All rights reserved.</span>
             <div><a href="#privacy">Privacy Policy</a>

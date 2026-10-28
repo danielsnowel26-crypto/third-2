@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Transactions</title>
+    <link rel="stylesheet" href="all.css">
+</head>
+<body class="transactions-page">
+    <nav class="side-nav">
+        <a class="logo" href="index.html" aria-label="Nexora home">
+            <img src="logo/nexora-logo-horizontal.svg" alt="Nexora - Banking Beyond Limits">
+        </a>
+
+        <div class="side-items">
+            <li><a href="dashboard.html"><img src="icons/home.svg" alt="">Dashboard</a></li>
+            <li><a href="accounts.html"><img src="icons/accounts.svg" alt="">Accounts</a></li>
+            <li><a href="transfer.html"><img src="icons/transfers.svg" alt="">Transfers</a></li>
+            <li><a href="cards.html"><img src="icons/cards.svg" alt="">Cards</a></li>
+            <li class="active"><a href="transactions.html"><img src="icons/clock.svg" alt="">Transcations</a></li>
+            <li><a href="savings.html"><img src="icons/savings.svg" alt="">Savings & Loans</a></li>
+            <li><a href="profile.html"><img src="icons/profile.svg" alt="">Profile</a></li>
+            <li><a href="settings.html"><img src="icons/settings.svg" alt="">Setttings</a></li>
+            <li><a href="support.html"><img src="icons/support.svg" alt="">Support</a></li>
+        </div>
+
+        <div class="perminum">
+            <h3><img src="icons/star.svg" alt="">Nexora Premium</h3>
+            <p>Unlock higher limts, metal cards and priority support.</p>
+            <button class="gradebtn">Upgrade</button>
+        </div>
+
+        <a class="logout" href="login.html"><img src="icons/logout.svg" alt="">Logout</a>
+        </nav>
+
+    <section class="history">
+        <div class="top">
+            <input type="search"
+            placeholder="Search anything...">
+
+            <img src="icons/notifications-dot.svg" alt="Notifications">
+            <img src="icons/chat.svg" alt="Messages">
+            <img src="avatars/michael-snowel.svg" alt="Michael Snowel"
+            aria-placeholder="Premium Memeber">
+            <span class="who">Michael Snowel<small>Premium Member</small></span>
+            </div>
+
+        <h1>Transactions</h1>
+        <p>Your complete history and downloadable statements.</p>
+
+        <div class="flow">
+            <div>
+                <img src="icons/receive.svg" alt="">
+                <h4>Money in</h4>
+                <h1>$3,526.40</h1>
+                <p>8.2% this month</p>
+            </div>
+            <div>
+                <img src="icons/send.svg" alt="">
+                <h4>Money out</h4>
+                <h1>$2,340.50</h1>
+                <p class="down">3.1% this month</p>
+            </div>
+            <div>
+                <img src="icons/trending.svg" alt="">
+                <h4>Net cash flow</h4>
+                <h1>+$1,185.90</h1>
+                <p class="plain">Healthy</p>
+            </div>
+        </div>
+
+        <div class="records">
+            <form class="filters">
+                <input type="search" placeholder="Search transactions">
+                <select aria-label="Month">
+                    <option>Oct 2026</option>
+                    <option>Sep 2026</option>
+                    <option>Aug 2026</option>
+                </select>
+                <select aria-label="Type">
+                    <option>All types</option>
+                    <option>Money in</option>
+                    <option>Money out</option>
+                </select>
+                <button type="button" class="exportbtn"><img src="icons/download.svg" alt="">Export</button>
+            </form>
+
+            <table>
+                <thead>
+                    <tr>
+                        <th>Transaction</th>
+                        <th>Category</th>
+                        <th>Date</th>
+                        <th>Status</th>
+                        <th>Amount</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><img src="icons/white/bolt.svg" alt=""><b>Netflix Subscription</b></td>
+                        <td>Entertainment</td>
+                        <td>Oct 26, 2026</td>
+                        <td><span class="status ">Completed</span></td>
+                        <td class="amount ">-$15.99</td>
+                    </tr>
+                    <tr>
+                        <td><img src="icons/white/savings.svg" alt=""><b>Salary Credit</b></td>
+                        <td>Income</td>
+                        <td>Oct 24, 2026</td>
+                        <td><span class="status ">Completed</span></td>
+                        <td class="amount in">+$2,500.00</td>
+                    </tr>
+                    <tr>
+                        <td><img src="icons/white/bills.svg" alt=""><b>Electricity Bill</b></td>
+                        <td>Utilities</td>
+                        <td>Oct 21, 2026</td>
+                        <td><span class="status ">Completed</span></td>
+                        <td class="amount ">-$60.00</td>
+                    </tr>
+                    <tr>
+                        <td><img src="icons/white/send.svg" alt=""><b>Transfer to John Doe</b></td>
+                        <td>Transfers</td>
+                        <td>Oct 20, 2026</td>
+                        <td><span class="status ">Completed</span></td>
+                        <td class="amount ">-$200.00</td>
+                    </tr>
+                    <tr>
+                        <td><img src="icons/white/cards.svg" alt=""><b>Amazon Purchase</b></td>
+                        <td>Shopping</td>
+                        <td>Oct 19, 2026</td>
+                        <td><span class="status pending">Pending</span></td>
+                        <td class="amount ">-$84.30</td>
+                    </tr>
+                    <tr>
+                        <td><img src="icons/white/investments.svg" alt=""><b>Dividend Payout</b></td>
+                        <td>Investments</td>
+                        <td>Oct 17, 2026</td>
+                        <td><span class="status ">Completed</span></td>
+                        <td class="amount in">+$126.40</td>
+                    </tr>
+                    <tr>
+                        <td><img src="icons/white/location.svg" alt=""><b>Uber Ride</b></td>
+                        <td>Transport</td>
+                        <td>Oct 16, 2026</td>
+                        <td><span class="status ">Completed</span></td>
+                        <td class="amount ">-$18.75</td>
+                    </tr>
+                    <tr>
+                        <td><img src="icons/white/wallet.svg" alt=""><b>Freelance Payment</b></td>
+                        <td>Income</td>
+                        <td>Oct 14, 2026</td>
+                        <td><span class="status ">Completed</span></td>
+                        <td class="amount in">+$900.00</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+        <aside class="breakdown">
+            <h3>Spending by category</h3>
+            <img src="illustrations/ring-64.svg" alt="64% of the monthly budget used">
+            <p>Total spent <strong>$1,250</strong></p>
+            <ul>
+                <li><span>Shopping</span>$640</li>
+                <li><span>Utilities</span>$310</li>
+                <li><span>Entertainment</span>$180</li>
+                <li><span>Transport</span>$120</li>
+            </ul>
+        </aside>
+
+        <aside class="statements">
+            <h3>Statements</h3>
+                <div>
+                    <img src="icons/bills.svg" alt="">
+                    <h5>October 2026<small>PDF · 128 KB</small></h5>
+                    <a href="#download" aria-label="Download October 2026 statement"><img src="icons/download.svg" alt=""></a>
+                </div>
+                <div>
+                    <img src="icons/bills.svg" alt="">
+                    <h5>September 2026<small>PDF · 128 KB</small></h5>
+                    <a href="#download" aria-label="Download September 2026 statement"><img src="icons/download.svg" alt=""></a>
+                </div>
+                <div>
+                    <img src="icons/bills.svg" alt="">
+                    <h5>August 2026<small>PDF · 128 KB</small></h5>
+                    <a href="#download" aria-label="Download August 2026 statement"><img src="icons/download.svg" alt=""></a>
+                </div>
+                <div>
+                    <img src="icons/bills.svg" alt="">
+                    <h5>July 2026<small>PDF · 128 KB</small></h5>
+                    <a href="#download" aria-label="Download July 2026 statement"><img src="icons/download.svg" alt=""></a>
+                </div>
+                <div>
+                    <img src="icons/bills.svg" alt="">
+                    <h5>June 2026<small>PDF · 128 KB</small></h5>
+                    <a href="#download" aria-label="Download June 2026 statement"><img src="icons/download.svg" alt=""></a>
+                </div>
+        </aside>
+    </section>
+</body>
+</html>

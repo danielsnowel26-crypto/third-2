@@ -4,31 +4,33 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Setting</title>
+    <link rel="stylesheet" href="all.css">
 </head>
-<body>
+<body class="settings-page">
     <nav class="side-nav">
-        <a class="logo" href="#home" aria-label="Nexora home">
+        <a class="logo" href="index.html" aria-label="Nexora home">
             <img src="logo/nexora-logo-horizontal.svg" alt="Nexora - Banking Beyond Limits">
         </a>
 
         <div class="side-items">
-            <li><a href="">Dashboard</a></li>
-            <li><a href="">Accounts</a></li>
-            <li><a href="">Cards</a></li>
-            <li><a href="">Transcations</a></li>
-            <li><a href="">Savings & Loans</a></li>
-            <li><a href="">Profile</a></li>
-            <li><a href="">Setttings</a></li>
-            <li><a href="">Support</a></li>
+            <li><a href="dashboard.html"><img src="icons/home.svg" alt="">Dashboard</a></li>
+            <li><a href="accounts.html"><img src="icons/accounts.svg" alt="">Accounts</a></li>
+            <li><a href="transfer.html"><img src="icons/transfers.svg" alt="">Transfers</a></li>
+            <li><a href="cards.html"><img src="icons/cards.svg" alt="">Cards</a></li>
+            <li><a href="transactions.html"><img src="icons/clock.svg" alt="">Transcations</a></li>
+            <li><a href="savings.html"><img src="icons/savings.svg" alt="">Savings & Loans</a></li>
+            <li><a href="profile.html"><img src="icons/profile.svg" alt="">Profile</a></li>
+            <li class="active"><a href="settings.html"><img src="icons/settings.svg" alt="">Setttings</a></li>
+            <li><a href="support.html"><img src="icons/support.svg" alt="">Support</a></li>
         </div>
 
         <div class="perminum">
-            <h3>Nexora Premium</h3>
+            <h3><img src="icons/star.svg" alt="">Nexora Premium</h3>
             <p>Unlock higher limts, metal cards and priority support.</p>
             <button class="gradebtn">Upgrade</button>
         </div>
 
-        <a>Logout</a>
+        <a class="logout" href="login.html"><img src="icons/logout.svg" alt="">Logout</a>
     </nav>
 
     <section class="main">
@@ -36,10 +38,11 @@
             <input type="search"
             placeholder="Search anything...">
 
-            <img src="" alt="">
-            <img src="" alt="">
-            <img src="" alt="Michael Snowel"
+            <img src="icons/notifications-dot.svg" alt="Notifications">
+            <img src="icons/chat.svg" alt="Messages">
+            <img src="avatars/michael-snowel.svg" alt="Michael Snowel"
             aria-placeholder="Premium Memeber">
+            <span class="who">Michael Snowel<small>Premium Member</small></span>
             </div>
 
             <div class="three">
@@ -49,50 +52,50 @@
                 <div class="six">
                     <div class="titan">
                         <h2>Account & Security</h2>
-                        <div><img src="" alt="Change password">Last Changed 3 months ago</div>
-                        <div><img src="" alt="Two-factor authenication">
+                        <div><img src="icons/key.svg" alt="Change password"><strong>Change password</strong>Last Changed 3 months ago</div>
+                        <div><img src="icons/fingerprint.svg" alt="Two-factor authenication"><strong>Two-factor authentication</strong>
                             Authenticator app enabled<button class="toggle"></button></div>
-                            <div><img src="" alt="Boimetric login">
+                            <div><img src="icons/lock.svg" alt="Boimetric login"><strong>Biometric login</strong>
                                 Use fingerproint or Face ID<button class="toggle"></button></div>
-                                <div><img src="" alt="Login sessions">
+                                <div><img src="icons/device.svg" alt="Login sessions"><strong>Login sessions</strong>
                                     Manage devices signed into Nexora</div>
                     </div>
 
                     <div class="titan">
                         <h2>Prefences</h2>
-                        <div><img src="" alt="Language">English</div>
-                        <div><img src="" alt="Default cuurency">US Dollar</div>
-                        <div><img src="" alt="Theme">Dark navy & Gold</div>
+                        <div><img src="icons/globe.svg" alt="Language"><strong>Language</strong>English</div>
+                        <div><img src="icons/wallet.svg" alt="Default cuurency"><strong>Default currency</strong>US Dollar</div>
+                        <div><img src="icons/star.svg" alt="Theme"><strong>Theme</strong>Dark navy & Gold</div>
                     </div>
 
                     <div class="titan">
                         <h2>Notifications</h2>
-                        <div><img src="" alt="Email Notifications">
+                        <div><img src="icons/email.svg" alt="Email Notifications"><strong>Email notifications</strong>
                             statements and offers<button class="toggle"></button></div>
-                            <div><img src="" alt="SMS alerts">
+                            <div><img src="icons/phone.svg" alt="SMS alerts"><strong>SMS alerts</strong>
                                 Transaction allerts and codes<button class="toggle"></button></div>
-                                <div><img src="" alt="Push notifictaions">
+                                <div><img src="icons/notifications.svg" alt="Push notifictaions"><strong>Push notifications</strong>
                                     Real-time activity in the app<button class="toggle"></button></div>
-                                    <div><img src="" alt="Marketing">News and promotions<button class="toggles"></button></div>
+                                    <div><img src="icons/chart.svg" alt="Marketing"><strong>Marketing</strong>News and promotions<button class="toggles"></button></div>
                     </div>
                 </div>
 
                 <div class="nine">
                     <div class="score">
                         <h3>Security score</h3>
-                        <img src="" alt="Excellent">
+                        <img src="illustrations/ring-92.svg" alt="Security score 92 - Excellent">
                         <p>Add a recovery photo number to reach 100.</p>
                     </div>
 
                     <div class="sign">
                         <h3>Signed-In devices</h3>
-                        <img src="" alt="Samsung Galaxry 26 Ultra">
+                        <img src="icons/device.svg" alt="Samsung Galaxry 26 Ultra">
                         <p>Seoul,South korea - Active now
                             <button class="devicebtn">this Device</button>
                         </p>
-                        <img src="" alt="MacBook Pro">
+                        <img src="icons/building.svg" alt="MacBook Pro">
                         <p>Jeju Island - 2 hours ago <a href="#">Sign Out</a></p>
-                        <img src="" alt="Chrome On Windows">
+                        <img src="icons/globe.svg" alt="Chrome On Windows">
                         <p>London, Uk - 3 days ago <a href="#">Sign Out</a></p>
                     </div>
 

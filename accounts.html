@@ -4,31 +4,33 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Accounts</title>
+    <link rel="stylesheet" href="all.css">
 </head>
-<body>
+<body class="accounts-page">
         <nav class="side-navr">
-        <a class="logo" href="#home" aria-label="Nexora home">
+        <a class="logo" href="index.html" aria-label="Nexora home">
             <img src="logo/nexora-logo-horizontal.svg" alt="Nexora - Banking Beyond Limits">
         </a>
 
         <div class="side-items">
-            <li><a href="">Dashboard</a></li>
-            <li><a href="">Accounts</a></li>
-            <li><a href="">Cards</a></li>
-            <li><a href="">Transcations</a></li>
-            <li><a href="">Settings & Loans</a></li>
-            <li><a href="">Profile</a></li>
-            <li><a href="">Setttinggs</a></li>
-            <li><a href="">Support</a></li>
+            <li><a href="dashboard.html"><img src="icons/home.svg" alt="">Dashboard</a></li>
+            <li class="active"><a href="accounts.html"><img src="icons/accounts.svg" alt="">Accounts</a></li>
+            <li><a href="transfer.html"><img src="icons/transfers.svg" alt="">Transfers</a></li>
+            <li><a href="cards.html"><img src="icons/cards.svg" alt="">Cards</a></li>
+            <li><a href="transactions.html"><img src="icons/clock.svg" alt="">Transcations</a></li>
+            <li><a href="savings.html"><img src="icons/savings.svg" alt="">Settings & Loans</a></li>
+            <li><a href="profile.html"><img src="icons/profile.svg" alt="">Profile</a></li>
+            <li><a href="settings.html"><img src="icons/settings.svg" alt="">Setttinggs</a></li>
+            <li><a href="support.html"><img src="icons/support.svg" alt="">Support</a></li>
         </div>
 
         <div class="perminum">
-            <h3>Nexora Premium</h3>
+            <h3><img src="icons/star.svg" alt="">Nexora Premium</h3>
             <p>Unlock higher limts, metal cards and priority support.</p>
             <button class="gradebtn">Upgrade</button>
         </div>
 
-        <a>Logout</a>
+        <a class="logout" href="login.html"><img src="icons/logout.svg" alt="">Logout</a>
         </nav>
 
          <section class="sector">
@@ -36,10 +38,11 @@
             <input type="search"
             placeholder="Search anything...">
 
-            <img src="" alt="">
-            <img src="" alt="">
-            <img src="" alt="Michael Snowel"
+            <img src="icons/notifications-dot.svg" alt="Notifications">
+            <img src="icons/chat.svg" alt="Messages">
+            <img src="avatars/michael-snowel.svg" alt="Michael Snowel"
             aria-placeholder="Premium Memeber">
+            <span class="who">Michael Snowel<small>Premium Member</small></span>
             </div>
 
             <h1>Accounts</h1>
@@ -52,41 +55,46 @@
                 <h2>$399, 600, 614.95</h2>
                 <button class="itbtn">4.8%</button>
                 <p>vs last month</p>
+                <img src="illustrations/sparkline-wide.svg" alt="">
             </div>
 
             <div class="current">
                 <div class="co">
 
                     <div>
-                        <img src="" alt="">
+                        <img src="flags/us.svg" alt="United States flag">
                     <h2>Current Account - USD
                         <span>$12, 480.75</span>
                     </h2>
                     <p>*****4821</p>
+                    <img class="spark" src="illustrations/sparkline-up.svg" alt="">
                     </div>
 
                     <div>
-                        <img src="" alt="">
+                        <img src="flags/eu.svg" alt="European Union flag">
                         <h2>Savings Account - EUR
                             <span>€6, 230.00</span>
                         </h2>
                         <p>*****7730</p>
+                        <img class="spark" src="illustrations/sparkline-up.svg" alt="">
                     </div>
 
                     <div>
-                        <img src="" alt="">
+                        <img src="flags/gb.svg" alt="United Kingdom flag">
                         <h2>Business Account - GRP
                             <span>£180,904.20</span>
                         </h2>
                         <p>*****1156</p>
+                        <img class="spark" src="illustrations/sparkline-up.svg" alt="">
                     </div>
 
                     <div>
-                        <img src="" alt="">
+                        <img src="flags/ng.svg" alt="Nigeria flag">
                         <h2>Naira Acccount - NGN
                             <span>₦100,250,000</span>
                         </h2>
                         <p>*****9042</p>
+                        <img class="spark" src="illustrations/sparkline-up.svg" alt="">
                     </div>
 
                 </div>
@@ -132,37 +140,37 @@
                 <h2>Currency wallets</h2>
 
                 <div>
-                    <img src="" alt="">
+                    <img src="flags/us.svg" alt="">
                     <h4>USD</h4>
                     <p>$12,480.75</p>
                 </div>
 
                 <div>
-                    <img src="" alt="">
+                    <img src="flags/eu.svg" alt="">
                     <h4>EUR</h4>
                     <p>€6,230.00</p>
                 </div>
 
                 <div>
-                    <img src="" alt="">
+                    <img src="flags/gb.svg" alt="">
                     <h4>GRP</h4>
                     <p>£180,904.20</p>
                 </div>
 
                 <div>
-                    <img src="" alt="">
+                    <img src="flags/ng.svg" alt="">
                     <h4>NGN</h4>
                     <p>₦100,250,000</p>
                 </div>
 
                 <div>
-                    <img src="" alt="">
+                    <img src="flags/cn.svg" alt="">
                     <h4>CNY</h4>
                     <p>¥80,420,000.00</p>
                 </div>
 
                 <div>
-                    <img src="" alt="">
+                    <img src="flags/jp.svg" alt="">
                     <h4>JPY</h4>
                     <p>¥145,000,000</p>
                 </div>
@@ -172,27 +180,27 @@
                 <h2>Statements</h2>
 
                 <div>
-                    <img src="" alt="">
+                    <img src="icons/bills.svg" alt="">
                     <h5>October 2026 statement</h5>
-                    <img src="" alt="">
+                    <img src="icons/download.svg" alt="Download statement">
                 </div>
 
                 <div>
-                    <img src="" alt="">
+                    <img src="icons/bills.svg" alt="">
                     <h5>September 2025 statement</h5>
-                    <img src="" alt=""> 
+                    <img src="icons/download.svg" alt="Download statement"> 
                 </div>
 
                 <div>
-                    <img src="" alt="">
+                    <img src="icons/bills.svg" alt="">
                     <h5>August 2024 statement</h5>
-                    <img src="" alt="">
+                    <img src="icons/download.svg" alt="Download statement">
                 </div>
 
                 <div>
-                    <img src="" alt="">
+                    <img src="icons/bills.svg" alt="">
                     <h5>July 2023 statement</h5>
-                    <img src="" alt="">
+                    <img src="icons/download.svg" alt="Download statement">
                 </div>
 
             </div>

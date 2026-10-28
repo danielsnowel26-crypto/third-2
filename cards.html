@@ -4,31 +4,33 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Cards Page</title>
+    <link rel="stylesheet" href="all.css">
 </head>
-<body>
+<body class="cards-page">
     <nav class="side-nav">
-        <a class="logo" href="#home" aria-label="Nexora home">
+        <a class="logo" href="index.html" aria-label="Nexora home">
             <img src="logo/nexora-logo-horizontal.svg" alt="Nexora - Banking Beyond Limits">
         </a>
 
         <div class="side-items">
-            <li><a href="">Dashboard</a></li>
-            <li><a href="">Accounts</a></li>
-            <li><a href="">Cards</a></li>
-            <li><a href="">Transcations</a></li>
-            <li><a href="">Savings & Loans</a></li>
-            <li><a href="">Profile</a></li>
-            <li><a href="">Setttings</a></li>
-            <li><a href="">Support</a></li>
+            <li><a href="dashboard.html"><img src="icons/home.svg" alt="">Dashboard</a></li>
+            <li><a href="accounts.html"><img src="icons/accounts.svg" alt="">Accounts</a></li>
+            <li><a href="transfer.html"><img src="icons/transfers.svg" alt="">Transfers</a></li>
+            <li class="active"><a href="cards.html"><img src="icons/cards.svg" alt="">Cards</a></li>
+            <li><a href="transactions.html"><img src="icons/clock.svg" alt="">Transcations</a></li>
+            <li><a href="savings.html"><img src="icons/savings.svg" alt="">Savings & Loans</a></li>
+            <li><a href="profile.html"><img src="icons/profile.svg" alt="">Profile</a></li>
+            <li><a href="settings.html"><img src="icons/settings.svg" alt="">Setttings</a></li>
+            <li><a href="support.html"><img src="icons/support.svg" alt="">Support</a></li>
         </div>
 
         <div class="perminum">
-            <h3>Nexora Premium</h3>
+            <h3><img src="icons/star.svg" alt="">Nexora Premium</h3>
             <p>Unlock higher limts, metal cards and priority support.</p>
             <button class="gradebtn">Upgrade</button>
         </div>
 
-        <a>Logout</a>
+        <a class="logout" href="login.html"><img src="icons/logout.svg" alt="">Logout</a>
     </nav>
 
     <section class="sectors">
@@ -36,11 +38,12 @@
             <input type="search"
             placeholder="Search anything...">
 
-            <img src="" alt="">
-            <img src="" alt="">
-            <img src="" alt="Michael Snowel"
+            <img src="icons/notifications-dot.svg" alt="Notifications">
+            <img src="icons/chat.svg" alt="Messages">
+            <img src="avatars/michael-snowel.svg" alt="Michael Snowel"
             aria-placeholder="Premium Memeber">
-        </div>
+            <span class="who">Michael Snowel<small>Premium Member</small></span>
+            </div>
 
         <h2>Cards</h2>
         <p>View, control and secure all your Nexora cards.
@@ -48,33 +51,33 @@
         </p>
 
         <div class="ards">
-            <img src="" alt="">
+            <img src="illustrations/card-black.svg" alt="Nexora Premium black card ending 4821">
             <div class="twin">
                 <h3>Card controls <button class="artbtn">Active</button></h3>
                 <div>
-                    <img src="" alt="Freeze card">
-                    <p>Temporarily block all transcations
+                    <img src="icons/lock.svg" alt="Freeze card">
+                    <p><strong>Freeze card</strong>Temporarily block all transcations
                     <button class="toggle"></button>
                    </p>
                 </div>
                 
                 <div>
-                    <img src="" alt="Online Payments">
-                    <p>Allow e-commerce purchase
+                    <img src="icons/globe.svg" alt="Online Payments">
+                    <p><strong>Online payments</strong>Allow e-commerce purchase
                         <button class="toggle"></button>
                     </p>
                 </div>
 
                 <div>
-                    <img src="" alt="Contactless">
-                    <p>Tap to pay in stores
+                    <img src="icons/bolt.svg" alt="Contactless">
+                    <p><strong>Contactless</strong>Tap to pay in stores
                         <button class="toggle"></button>
                     </p>
                 </div>
 
                 <div>
-                    <img src="" alt="International use">
-                    <p>Spend outside your home country
+                    <img src="icons/location.svg" alt="International use">
+                    <p><strong>International use</strong>Spend outside your home country
                         <button class="toggle"></button>
                     </p>
                 </div>
@@ -82,7 +85,7 @@
         </div>
 
         <main class="lex">
-            <img src="" alt="">
+            <img src="illustrations/card-gold.svg" alt="Nexora gold card ending 7730">
             <div>+<h1>Add card</h1></div>
         </main>
 
@@ -105,15 +108,16 @@
 
             <div>
                 <h3>Card Details</h3>
-                <img src="" alt="Netflix Subscription">
-                <p>Oct 26, 2026 <span>-$15.99</span></p>
-                <img src="" alt="Salary Credit">
-                <p>Oct 24, 2026 <span>+$2,500.00</span></p>
-                <img src="" alt="Electicity Bill">
-                <p>Oct 21, 2026 <span>-$60.00</span></p>
-                <img src="" alt="Transfer to John Doe">
-                <p>Oct 20, 2026 <span>-$200.00</span></p>
+                <img src="icons/white/bolt.svg" alt="Netflix Subscription">
+                <p><strong>Netflix Subscription</strong>Oct 26, 2026 <span>-$15.99</span></p>
+                <img src="icons/white/savings.svg" alt="Salary Credit">
+                <p><strong>Salary Credit</strong>Oct 24, 2026 <span>+$2,500.00</span></p>
+                <img src="icons/white/bills.svg" alt="Electicity Bill">
+                <p><strong>Electricity Bill</strong>Oct 21, 2026 <span>-$60.00</span></p>
+                <img src="icons/white/send.svg" alt="Transfer to John Doe">
+                <p><strong>Transfer to John Doe</strong>Oct 20, 2026 <span>-$200.00</span></p>
             </div>
         </section>
+    </section>
 </body>
 </html>

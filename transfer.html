@@ -4,31 +4,33 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Transfer page</title>
+    <link rel="stylesheet" href="all.css">
 </head>
-<body>
+<body class="transfer-page">
         <nav class="side-nav">
-        <a class="logo" href="#home" aria-label="Nexora home">
+        <a class="logo" href="index.html" aria-label="Nexora home">
             <img src="logo/nexora-logo-horizontal.svg" alt="Nexora - Banking Beyond Limits">
         </a>
 
         <div class="side-items">
-            <li><a href="">Dashboard</a></li>
-            <li><a href="">Accounts</a></li>
-            <li><a href="">Cards</a></li>
-            <li><a href="">Transcations</a></li>
-            <li><a href="">Savings & Loans</a></li>
-            <li><a href="">Profile</a></li>
-            <li><a href="">Setttings</a></li>
-            <li><a href="">Support</a></li>
+            <li><a href="dashboard.html"><img src="icons/home.svg" alt="">Dashboard</a></li>
+            <li><a href="accounts.html"><img src="icons/accounts.svg" alt="">Accounts</a></li>
+            <li class="active"><a href="transfer.html"><img src="icons/transfers.svg" alt="">Transfers</a></li>
+            <li><a href="cards.html"><img src="icons/cards.svg" alt="">Cards</a></li>
+            <li><a href="transactions.html"><img src="icons/clock.svg" alt="">Transcations</a></li>
+            <li><a href="savings.html"><img src="icons/savings.svg" alt="">Savings & Loans</a></li>
+            <li><a href="profile.html"><img src="icons/profile.svg" alt="">Profile</a></li>
+            <li><a href="settings.html"><img src="icons/settings.svg" alt="">Setttings</a></li>
+            <li><a href="support.html"><img src="icons/support.svg" alt="">Support</a></li>
         </div>
 
         <div class="perminum">
-            <h3>Nexora Premium</h3>
+            <h3><img src="icons/star.svg" alt="">Nexora Premium</h3>
             <p>Unlock higher limts, metal cards and priority support.</p>
             <button class="gradebtn">Upgrade</button>
         </div>
 
-        <a>Logout</a>
+        <a class="logout" href="login.html"><img src="icons/logout.svg" alt="">Logout</a>
     </nav>
 
     <section class="third">
@@ -36,63 +38,65 @@
             <input type="search"
             placeholder="Search anything...">
 
-            <img src="" alt="">
-            <img src="" alt="">
-            <img src="" alt="Michael Snowel"
+            <img src="icons/notifications-dot.svg" alt="Notifications">
+            <img src="icons/chat.svg" alt="Messages">
+            <img src="avatars/michael-snowel.svg" alt="Michael Snowel"
             aria-placeholder="Premium Memeber">
-        </div>
+            <span class="who">Michael Snowel<small>Premium Member</small></span>
+            </div>
 
         <h3>Transfers</h3>
         <p>Send Money Locally or across the world</p>
 
         <div class="fourth">
             <div>
-                <button class="localbtn">Local</button>
-                <button class="natbtn">International</button>
-                <button btwbtn>Between my accounts</button>
+                <div class="tabs">
+                    <button class="localbtn">Local</button>
+                    <button class="natbtn">International</button>
+                    <button class="btwbtn">Between my accounts</button>
+                </div>
 
                 <label for="text">From account</label>
                 <select name="currency" id="currency">
                     <option value="currencies">
-                    <img src="" alt="">Current Account - USD <span>$12,480.75</span>
+                    <img src="flags/us.svg" alt="">Current Account - USD <span>$12,480.75</span>
                 </option>
                 <option value="currencies">
-                    <img src="" alt="">Current Account - CNY <span>¥1,002,000.75</span></option>
+                    <img src="flags/cn.svg" alt="">Current Account - CNY <span>¥1,002,000.75</span></option>
                     <option value="currencies">
-                    <img src="" alt="">Current Account - JPN <span>¥145,000</span></option>
+                    <img src="flags/jp.svg" alt="">Current Account - JPN <span>¥145,000</span></option>
                     <option value="currencies">
-                    <img src="" alt="">Current Account - GBP <span>£300,000</span></option>
+                    <img src="flags/gb.svg" alt="">Current Account - GBP <span>£300,000</span></option>
                      <option value="currencies">
-                    <img src="" alt="">Current Account - EUR <span>€6,230.00</span></option>
+                    <img src="flags/eu.svg" alt="">Current Account - EUR <span>€6,230.00</span></option>
                 </select>
 
                 <label for="recipient">Recipient</label>
                 <select name="name" id="name">
-                    <option value="bank"><img src="" alt="Li Wei">Bank Of Shanghai</option>
-                    <option value="bank"><img src="" alt="Choi kang ta">Bank Of Seoul</option>
-                    <option value="bank"><img src="" alt="Michael Snowel">Bank Of United Kingdom</option>
-                    <option value="bank"><img src="" alt="Rimuru">Bank of Tokyo</option>
+                    <option value="bank"><img src="avatars/li-wei.svg" alt="Li Wei">Bank Of Shanghai</option>
+                    <option value="bank"><img src="avatars/sam-lee.svg" alt="Choi kang ta">Bank Of Seoul</option>
+                    <option value="bank"><img src="avatars/michael-snowel.svg" alt="Michael Snowel">Bank Of United Kingdom</option>
+                    <option value="bank"><img src="avatars/john-doe.svg" alt="Rimuru">Bank of Tokyo</option>
                 </select>
 
                 <div class="field">
                     <label for="sent">You Send</label>
                     <div class="box">
                     <span>1,500.00
-                        <img src="" alt="USD">
+                        <img src="flags/us.svg" alt="USD"> USD
                     </span></div>
                 </div>
 
-                ⇄
+                <span class="swap">⇄</span>
                 <label for="They">They recieve</label>
                 <div class="box">
-                    <span>10,866.00 <img src="" alt="CNY"></span></div>
+                    <span>10,866.00 <img src="flags/cn.svg" alt="CNY"> CNY</span></div>
                 </div>
-            </div>
 
             <h3>Delivery speed</h3>
             <div class="express">
-                <div><img src="" alt=""><h4>Express</h4><p>Within minutes $450</p></div>
-                <div><img src="" alt=""><h4>Standard</h4><p>1 business day - Free</p></div>
+                <div><img src="icons/bolt.svg" alt=""><h4>Express</h4><p>Within minutes $450</p></div>
+                <div><img src="icons/clock.svg" alt=""><h4>Standard</h4><p>1 business day - Free</p></div>
             </div>
 
             <label for="opt">Reference (Optional)</label>
@@ -110,16 +114,16 @@
                 <p>Transfer fee <span>$4.50</span></p>
                 <p>Total to pay <span>$1,504.50</span></p>
                 <p>Arrives <span>Within minutes</span></p>
-                <button class="tfbtn"><img src="" alt="">Protected transfer</button>
+                <button class="tfbtn"><img src="icons/green/shield.svg" alt="">Protected transfer</button>
             </div>
 
             <div class="max">
                 <h3>Recent recipents</h3>
-                <img src="" alt="John Doe">
-                <img src="" alt="Sam lee">
-                <img src="" alt="li wei">
-                <img src="" alt="Sara M">
-                <img src="" alt="New">
+                <a class="rcp" href="profile.html"><img src="avatars/john-doe.svg" alt="John Doe"><span>John Doe</span></a>
+                <a class="rcp" href="profile.html"><img src="avatars/sam-lee.svg" alt="Sam lee"><span>Sam Lee</span></a>
+                <a class="rcp" href="profile.html"><img src="avatars/li-wei.svg" alt="li wei"><span>Li Wei</span></a>
+                <a class="rcp" href="profile.html"><img src="avatars/sara-m.svg" alt="Sara M"><span>Sara M.</span></a>
+                <a class="rcp" href="profile.html"><img src="avatars/new-recipient.svg" alt="New"><span>New</span></a>
             </div>
 
             <div class="min">

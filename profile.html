@@ -4,31 +4,33 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Profile Page</title>
+    <link rel="stylesheet" href="all.css">
 </head>
-<body>
+<body class="profile-page">
     <nav class="side-nav">
-        <a class="logo" href="#home" aria-label="Nexora home">
+        <a class="logo" href="index.html" aria-label="Nexora home">
             <img src="logo/nexora-logo-horizontal.svg" alt="Nexora - Banking Beyond Limits">
         </a>
 
         <div class="side-items">
-            <li><a href="">Dashboard</a></li>
-            <li><a href="">Accounts</a></li>
-            <li><a href="">Cards</a></li>
-            <li><a href="">Transcations</a></li>
-            <li><a href="">Savings & Loans</a></li>
-            <li><a href="">Profile</a></li>
-            <li><a href="">Setttings</a></li>
-            <li><a href="">Support</a></li>
+            <li><a href="dashboard.html"><img src="icons/home.svg" alt="">Dashboard</a></li>
+            <li><a href="accounts.html"><img src="icons/accounts.svg" alt="">Accounts</a></li>
+            <li><a href="transfer.html"><img src="icons/transfers.svg" alt="">Transfers</a></li>
+            <li><a href="cards.html"><img src="icons/cards.svg" alt="">Cards</a></li>
+            <li><a href="transactions.html"><img src="icons/clock.svg" alt="">Transcations</a></li>
+            <li><a href="savings.html"><img src="icons/savings.svg" alt="">Savings & Loans</a></li>
+            <li class="active"><a href="profile.html"><img src="icons/profile.svg" alt="">Profile</a></li>
+            <li><a href="settings.html"><img src="icons/settings.svg" alt="">Setttings</a></li>
+            <li><a href="support.html"><img src="icons/support.svg" alt="">Support</a></li>
         </div>
 
         <div class="perminum">
-            <h3>Nexora Premium</h3>
+            <h3><img src="icons/star.svg" alt="">Nexora Premium</h3>
             <p>Unlock higher limts, metal cards and priority support.</p>
             <button class="gradebtn">Upgrade</button>
         </div>
 
-        <a>Logout</a>
+        <a class="logout" href="login.html"><img src="icons/logout.svg" alt="">Logout</a>
         </nav>
 
          <section class="sectors">
@@ -36,10 +38,11 @@
             <input type="search"
             placeholder="Search anything...">
 
-            <img src="" alt="">
-            <img src="" alt="">
-            <img src="" alt="Michael Snowel"
+            <img src="icons/notifications-dot.svg" alt="Notifications">
+            <img src="icons/chat.svg" alt="Messages">
+            <img src="avatars/michael-snowel.svg" alt="Michael Snowel"
             aria-placeholder="Premium Memeber">
+            <span class="who">Michael Snowel<small>Premium Member</small></span>
             </div>
 
             <div class="profile">
@@ -48,21 +51,22 @@
 
                 <div class="files">
                     <div>
-                        <img src="" alt="Michael Snowel">
+                        <img src="avatars/michael-snowel.svg" alt="Michael Snowel">
+                        <h2>Michael Snowel</h2>
                         <p>michaelsnowel62@gamil.com
                             <button class="editbtn">
-                                <img src="" alt="">
+                                <img src="icons/dark/edit.svg" alt="">
                                 Edit Profile
                             </button>
                         </p>
 
                         <button class="minbtn">
-                            <img src="" alt="">
+                            <img src="icons/star.svg" alt="">
                             Premium Member
                         </button>
 
                         <button class="verifybtn">
-                            <img src="" alt="">
+                            <img src="icons/green/shield.svg" alt="">
                             Verified
                         </button>
                     </div>
@@ -115,7 +119,7 @@
                     <div class="completion">
                         <div>
                             <h3>Profile completion</h3>
-                            <img src="" alt="">
+                            <img src="illustrations/ring-85.svg" alt="Profile 85% complete">
                             <p>Upload a proof of address to reach 100% and 
                                 unlock higher limts and benefits.
                             </p>
@@ -124,23 +128,23 @@
                         <div class="verifi">
                             <div>
                             <h3>Verification</h3>
-                            <img src="" alt="Email address">
-                            <p>verified</p>
+                            <img src="icons/green/check.svg" alt="Email address">
+                            <p><strong>Email address</strong>verified</p>
                             </div>
 
                             <div>
-                            <img src="" alt="Phone Number">
-                            <p>veirfied</p>
+                            <img src="icons/green/check.svg" alt="Phone Number">
+                            <p><strong>Phone number</strong>veirfied</p>
                             </div>
 
                             <div>
-                            <img src="" alt="Government ID">
-                            <p>verified</p>
+                            <img src="icons/green/check.svg" alt="Government ID">
+                            <p><strong>Government ID</strong>verified</p>
                             </div>
 
                             <div>
-                            <img src="" alt="Proof of address">
-                            <p>pending</p>
+                            <img src="icons/clock.svg" alt="Proof of address">
+                            <p class="pending"><strong>Proof of address</strong>pending</p>
                             </div>
 
                         </div>
@@ -154,5 +158,6 @@
                     </div>
                 </div>
             </div>
+         </section>
 </body>
 </html>

@@ -6,8 +6,9 @@
     <title>Login page</title>
     <link rel="stylesheet" href="all.css">
 </head>
-<body>
+<body class="login-page">
     <div class="one">
+        <a class="logo" href="index.html"><img src="logo/nexora-logo-stacked.svg" alt="Nexora - Banking Beyond Limits"></a>
         <h1>Welcome back</h1>
         <p>Please enter your credentials to log in.</p>
 
@@ -23,8 +24,9 @@
              placeholder="password" required>
 
                 <p class="checkmark">
+                    <input type="checkbox" id="remember" checked>
                     Remember me
-                    <span class="forgot">Forgot password?</span> 
+                    <span class="forgot"><a href="reset.html">Forgot password?</a></span> 
                 </p>
 
                 <a href="index.html">
@@ -32,18 +34,19 @@
                 </a>
                 <p>or</p>
 
-                <button class="google">Continue with Google</button>
-                <button class="facebook">Continue with Facebook</button>
-                <button class="apple">Continue with Apple</button>
+                <button class="google"><img src="icons/google.svg" alt="">Continue with Google</button>
+                <button class="facebook"><img src="icons/facebook.svg" alt="">Continue with Facebook</button>
+                <button class="apple"><img src="icons/white/apple.svg" alt="">Continue with Apple</button>
 
                 <a href="signup.html">
                     <button type="submit">Sign Up</button>
                 </a>
                 
-                <p>Dont have an account?
+                <p class="switch">Dont have an account?
                      <a href="signup.html">Sign up</a>
                     </p>
         </form>
     </div>
+    <p class="secure"><img src="icons/shield.svg" alt="">Bank-grade 256-bit encryption · Your data is always protected</p>
 </body>
 </html>

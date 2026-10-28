@@ -4,9 +4,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Registration / Sign Up</title>
+    <link rel="stylesheet" href="all.css">
 </head>
-<body>
-    <img src="logo/nexora-logo-horizontal.svg" alt="Nexora - Banking Beyond Limits">
+<body class="signup-page">
+    <div class="auth-card">
+    <a class="logo" href="index.html"><img src="logo/nexora-logo-stacked.svg" alt="Nexora - Banking Beyond Limits"></a>
     <h1>Create Your Account</h1>
     <p>Join millions of users worldwide and experience the future of banking.</p>
 
@@ -21,7 +23,7 @@
          id="email"
           placeholder="Enter your email" required>
 
-          label for="phone">Phone Number</label>
+          <label for="phone">Phone Number</label>
         <input type="tel"
          id="phone"
          placeholder="Enter your phone number" required>
@@ -31,7 +33,7 @@
             id="password"
             placeholder="Enter your password" required>
 
-            label for="confirm-password">Confirm Password</label>
+            <label for="confirm-password">Confirm Password</label>
             <input type="password"
             id="confirm-password"
             placeholder="Confirm your password" required>
@@ -40,8 +42,11 @@
                 <input type="checkbox" id="terms" required>
                 I agree to the <a href="#terms">Terms and Conditions</a>
                 and <a href="#privacy">Privacy Policy</a>.
+            </p>
 
             <button type="submit">Sign Up</button>
-            <a>Already have an account? <a href="login.html">Log in</a>
+            <p class="switch">Already have an account? <a href="login.html">Log in</a></p>
+    </form>
+    </div>
 </body>
 </html>

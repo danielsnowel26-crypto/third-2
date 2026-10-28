@@ -1,0 +1,16 @@
+<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 200 200'><defs>
+<linearGradient id='bg' x1='0' y1='0' x2='1' y2='1'><stop offset='0' stop-color='#9be3ff'/><stop offset='1' stop-color='#3d97d6'/></linearGradient>
+<clipPath id='c'><circle cx='100' cy='100' r='100'/></clipPath></defs>
+<g clip-path='url(#c)'><rect width='200' height='200' fill='url(#bg)'/>
+<path d='M20 204 C26 160 64 148 100 148 C136 148 174 160 180 204Z' fill='#1d4f9c'/>
+<path d='M84 150 L100 172 L116 150 Z' fill='#fff' opacity='.9'/>
+<rect x='87' y='118' width='26' height='36' rx='10' fill='#D9A47A'/><rect x='87' y='132' width='26' height='12' fill='#000' opacity='.12'/>
+<ellipse cx='63' cy='96' rx='7' ry='10' fill='#D9A47A'/><ellipse cx='137' cy='96' rx='7' ry='10' fill='#D9A47A'/>
+<ellipse cx='100' cy='92' rx='37' ry='45' fill='#D9A47A'/><path d='M60 86 C54 50 80 30 106 32 C132 34 146 56 140 88 C134 72 120 64 100 64 C82 64 68 70 60 86Z' fill='#2a1d17'/><path d='M74 52 C88 28 124 26 138 52 C120 40 96 40 74 52Z' fill='#2a1d17'/>
+<path d='M76 82 Q85 77 94 81M106 81 Q115 77 124 82' stroke='#2a1d17' stroke-width='3.500' fill='none' stroke-linecap='round'/>
+<ellipse cx='85' cy='92' rx='3.800' ry='4.600' fill='#1c1c24'/><ellipse cx='115' cy='92' rx='3.800' ry='4.600' fill='#1c1c24'/>
+<circle cx='86.300' cy='90.500' r='1.200' fill='#fff'/><circle cx='116.300' cy='90.500' r='1.200' fill='#fff'/>
+<path d='M100 94 L97 108 Q100 110 104 108' stroke='#000' stroke-opacity='.25' stroke-width='2' fill='none' stroke-linecap='round'/>
+<path d='M84 112 Q100 128 116 112 Q100 117 84 112Z' fill='#fff' stroke='#7a3b2b' stroke-width='2' stroke-linejoin='round'/>
+<ellipse cx='76' cy='108' rx='7' ry='4' fill='#e8806b' opacity='.25'/><ellipse cx='124' cy='108' rx='7' ry='4' fill='#e8806b' opacity='.25'/>
+</g><circle cx='100' cy='100' r='98' fill='none' stroke='#D4AF57' stroke-width='3' stroke-opacity='.8'/></svg>

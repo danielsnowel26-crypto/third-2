@@ -4,31 +4,33 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Savings & Loans</title>
+    <link rel="stylesheet" href="all.css">
 </head>
-<body>
+<body class="savings-page">
     <nav class="side-nav">
-        <a class="logo" href="#home" aria-label="Nexora home">
+        <a class="logo" href="index.html" aria-label="Nexora home">
             <img src="logo/nexora-logo-horizontal.svg" alt="Nexora - Banking Beyond Limits">
         </a>
 
         <div class="side-items">
-            <li><a href="">Dashboard</a></li>
-            <li><a href="">Accounts</a></li>
-            <li><a href="">Cards</a></li>
-            <li><a href="">Transcations</a></li>
-            <li><a href="">Savings & Loans</a></li>
-            <li><a href="">Profile</a></li>
-            <li><a href="">Setttings</a></li>
-            <li><a href="">Support</a></li>
+            <li><a href="dashboard.html"><img src="icons/home.svg" alt="">Dashboard</a></li>
+            <li><a href="accounts.html"><img src="icons/accounts.svg" alt="">Accounts</a></li>
+            <li><a href="transfer.html"><img src="icons/transfers.svg" alt="">Transfers</a></li>
+            <li><a href="cards.html"><img src="icons/cards.svg" alt="">Cards</a></li>
+            <li><a href="transactions.html"><img src="icons/clock.svg" alt="">Transcations</a></li>
+            <li class="active"><a href="savings.html"><img src="icons/savings.svg" alt="">Savings & Loans</a></li>
+            <li><a href="profile.html"><img src="icons/profile.svg" alt="">Profile</a></li>
+            <li><a href="settings.html"><img src="icons/settings.svg" alt="">Setttings</a></li>
+            <li><a href="support.html"><img src="icons/support.svg" alt="">Support</a></li>
         </div>
 
         <div class="perminum">
-            <h3>Nexora Premium</h3>
+            <h3><img src="icons/star.svg" alt="">Nexora Premium</h3>
             <p>Unlock higher limts, metal cards and priority support.</p>
             <button class="gradebtn">Upgrade</button>
         </div>
 
-        <a>Logout</a>
+        <a class="logout" href="login.html"><img src="icons/logout.svg" alt="">Logout</a>
     </nav>
 
     <section class="main-two">
@@ -36,45 +38,49 @@
             <input type="search"
             placeholder="Search anything...">
 
-            <img src="" alt="">
-            <img src="" alt="">
-            <img src="" alt="Michael Snowel"
+            <img src="icons/notifications-dot.svg" alt="Notifications">
+            <img src="icons/chat.svg" alt="Messages">
+            <img src="avatars/michael-snowel.svg" alt="Michael Snowel"
             aria-placeholder="Premium Memeber">
-        </div>
+            <span class="who">Michael Snowel<small>Premium Member</small></span>
+            </div>
 
         <div class="ten">
             <div class="tens">
                 <h2>Savings & Loans</h2>
                 <p>Grow your money and borrow on your terms</p>
 
-                <h4>Savings golas <span>New goal</span></h4>
+                <h4>Savings golas <span><a href="savings.html">New goal</a></span></h4>
 
                 <div>
-                    <img src="" alt="Dream Home">
+                    <img src="illustrations/ring-68.svg" alt="Dream Home 68% saved">
+                    <h5>Dream Home</h5>
                     <button class="cent">5.8% p.a</button>
                     <p>$6,200,230 of $9,000,000</p>
-                    <img src="" alt="">
+                    <img src="illustrations/bar-68.svg" alt="">
                     <p>Target date: Jun 2026</p>
                 </div>
 
                 <div>
-                    <img src="" alt="Europe Trip">
+                    <img src="illustrations/ring-45.svg" alt="Europe Trip 45% saved">
+                    <h5>Europe Trip</h5>
                     <button class="cent">4.5% p.a</button>
                     <p>$1,800,000 of $4,000,000</p>
-                    <img src="" alt="">
+                    <img src="illustrations/bar-45.svg" alt="">
                     <p>Target date: Aug 2025</p>
                 </div>
 
                 <div>
-                    <img src="" alt="Emergency Fund">
+                    <img src="illustrations/ring-90.svg" alt="Emergency Fund 90% saved">
+                    <h5>Emergency Fund</h5>
                     <button class="cent">5.2% p.a</button>
                     <p>$400,230 of $500,000</p>
-                    <img src="" alt="">
+                    <img src="illustrations/bar-90.svg" alt="">
                     <p>Target date: Dec 2024</p>
                 </div>
 
                 <div>
-                    <img src="" alt="">
+                    <img src="illustrations/savings-coins.svg" alt="Savings growing">
                     <p>Interest earned this year</p>
                     <h1>$500.40</h1>
                     <p>Earn up to 6.2% p.a on Nexora Savings</p>
@@ -85,13 +91,13 @@
                 <div class="ele">
                     <h3>Loan Calculator</h3>
                     <p>Loan amount <span>$15,000</span></p>
-                    <img src="" alt="">
+                    <img src="illustrations/slider-38.svg" alt="">
 
                     <p>Term <span>24 months</span></p>
-                    <img src="" alt="">
+                    <img src="illustrations/slider-45.svg" alt="">
 
                     <p>Interest rate <span>8.9% p.a.</span></p>
-                    <img src="" alt="">
+                    <img src="illustrations/slider-30.svg" alt="">
 
                     <div>
                         <p>Monthly repayment</p>
@@ -103,19 +109,19 @@
                 <div class="ele">
                     <h3>Active loan <button class="onbtn">On Time</button></h3>
                     <p>Personal Loan $1,000,0000 <span>$20,0000 remaining</span></p>
-                    <img src="" alt="">
+                    <img src="illustrations/bar-60.svg" alt="">
                     <p>Next payment Nov 05, 2026 - $3420.60</p>
                 </div>
 
                 <div class="ele">
-                   <div><img src="" alt="Home Loan">
-                     <P>Up to $500,000 - 25 years <span>From 6.4%</span></P>
+                   <div><img src="icons/building.svg" alt="Home Loan">
+                     <P><strong>Home Loan</strong>Up to $500,000 - 25 years <span>From 6.4%</span></P>
                     </div>
-                    <div><img src="" alt="Car Loan">
-                     <p>Up to $60,000 - 10 years <span>From 7.9%</span></p>
+                    <div><img src="icons/car.svg" alt="Car Loan">
+                     <p><strong>Car Loan</strong>Up to $60,000 - 10 years <span>From 7.9%</span></p>
                     </div>
-                    <div><img src="" alt="Business Loan">
-                     <p>Up to $1,000,000 - 12 years <span>From 8.5%</span></p>
+                    <div><img src="icons/briefcase.svg" alt="Business Loan">
+                     <p><strong>Business Loan</strong>Up to $1,000,000 - 12 years <span>From 8.5%</span></p>
                     </div>
                 </div>
             </div>
