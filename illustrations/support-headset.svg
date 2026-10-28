@@ -1,0 +1,8 @@
+<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 360 320'><defs><linearGradient id='g' x1='0' y1='0' x2='1' y2='1'><stop offset='0' stop-color='#F6E3A1'/><stop offset='.5' stop-color='#D4AF57'/><stop offset='1' stop-color='#8F6E26'/></linearGradient><radialGradient id='rg3'><stop offset='0' stop-color='#D4AF57' stop-opacity='.3'/><stop offset='1' stop-color='#D4AF57' stop-opacity='0'/></radialGradient></defs>
+<circle cx='180' cy='160' r='150' fill='url(#rg3)'/>
+<path d='M88 170v-14a92 92 0 0 1 184 0v14' fill='none' stroke='url(#g)' stroke-width='14' stroke-linecap='round'/>
+<rect x='64' y='164' width='36' height='64' rx='14' fill='url(#g)'/><rect x='260' y='164' width='36' height='64' rx='14' fill='url(#g)'/>
+<path d='M278 228c0 26-26 36-66 36' fill='none' stroke='url(#g)' stroke-width='8' stroke-linecap='round'/><rect x='186' y='254' width='36' height='20' rx='10' fill='#F2DA94'/>
+<g><rect x='120' y='20' width='120' height='66' rx='16' fill='#121C3C' stroke='#D4AF57' stroke-opacity='.6'/><path d='M150 86l-6 20 24-20z' fill='#121C3C' stroke='#D4AF57' stroke-opacity='.6'/>
+<text x='180' y='62' text-anchor='middle' font-family="Montserrat,Poppins,'Segoe UI',Arial,sans-serif" font-size='26' font-weight='700' fill='url(#g)'>24/7</text></g>
+<circle cx='180' cy='160' r='6' fill='#F2DA94'/></svg>

@@ -1,0 +1,8 @@
+<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 360 360'><defs><linearGradient id='g' x1='0' y1='0' x2='1' y2='1'><stop offset='0' stop-color='#F6E3A1'/><stop offset='.5' stop-color='#D4AF57'/><stop offset='1' stop-color='#8F6E26'/></linearGradient><radialGradient id='rg2'><stop offset='0' stop-color='#D4AF57' stop-opacity='.4'/><stop offset='1' stop-color='#D4AF57' stop-opacity='0'/></radialGradient>
+<linearGradient id='sh' x1='0' y1='0' x2='0' y2='1'><stop offset='0' stop-color='#1d2a52'/><stop offset='1' stop-color='#0A0F1C'/></linearGradient></defs>
+<circle cx='180' cy='180' r='170' fill='url(#rg2)'/>
+<circle cx='180' cy='180' r='150' fill='none' stroke='#D4AF57' stroke-opacity='.25' stroke-dasharray='3 7'/><circle cx='180' cy='180' r='120' fill='none' stroke='#D4AF57' stroke-opacity='.18'/>
+<path d='M180 48 292 90v82c0 72-48 118-112 140C116 290 68 244 68 172V90z' fill='url(#sh)' stroke='url(#g)' stroke-width='4'/>
+<path d='M180 72 270 106v66c0 58-38 96-90 114-52-18-90-56-90-114v-66z' fill='none' stroke='#D4AF57' stroke-opacity='.35'/>
+<rect x='138' y='164' width='84' height='66' rx='12' fill='url(#g)'/><path d='M154 164v-18a26 26 0 0 1 52 0v18' fill='none' stroke='url(#g)' stroke-width='11' stroke-linecap='round'/>
+<circle cx='180' cy='194' r='9' fill='#0A0F1C'/><rect x='176' y='196' width='8' height='20' rx='3' fill='#0A0F1C'/></svg>
